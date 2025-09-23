@@ -74,4 +74,5 @@ const mockTailLists = [
 export {
   navLinks,
   cocktailLists,
+  mockTailLists,
 }
