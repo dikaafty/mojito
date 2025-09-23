@@ -4,7 +4,7 @@ import gsap from "gsap";
 
 const Hero = () => {
   useGSAP(() => {
-
+    const heroSplit = new SplitText('.title', { type: "chars, words" });
   }, []);
 
   return (
