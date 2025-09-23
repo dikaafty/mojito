@@ -46,4 +46,5 @@ const cocktailLists = [
 
 export {
   navLinks,
+  cocktailLists,
 }
