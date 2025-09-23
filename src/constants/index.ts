@@ -16,3 +16,7 @@ const navLinks = [
 	title: "Contact",
  },
 ]
+
+export {
+  navLinks,
+}
