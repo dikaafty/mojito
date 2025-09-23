@@ -6,7 +6,9 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 function App() {
   return (
     <>
-      
+      <main>
+        
+      </main>
     </>
   )
 }
