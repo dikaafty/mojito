@@ -3,6 +3,10 @@ import { SplitText } from "gsap/all";
 import gsap from "gsap";
 
 const Hero = () => {
+  useGSAP(() => {
+
+  }, []);
+
   return (
     <>
       <section id="hero" className="noisy">
