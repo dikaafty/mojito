@@ -1,3 +1,5 @@
+import { useGSAP } from "@gsap/react";
+
 const Hero = () => {
   return (
     <>
