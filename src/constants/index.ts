@@ -93,6 +93,13 @@ const featureLists = [
  "Expertly shaken & stirred",
 ];
 
+const goodLists = [
+ "Handpicked ingredients",
+ "Signature techniques",
+ "Bartending artistry in action",
+ "Freshly muddled flavors",
+];
+
 export {
   navLinks,
   cocktailLists,
