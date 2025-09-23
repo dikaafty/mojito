@@ -10,6 +10,7 @@ function App() {
     <>
       <main>
         <Navbar />
+        <Hero />
       </main>
     </>
   )
