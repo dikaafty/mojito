@@ -90,4 +90,5 @@ export {
   navLinks,
   cocktailLists,
   mockTailLists,
+  profileLists,
 }
