@@ -106,4 +106,5 @@ export {
   mockTailLists,
   profileLists,
   featureLists,
+  goodLists,
 }
