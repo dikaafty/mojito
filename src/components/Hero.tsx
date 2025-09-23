@@ -15,6 +15,15 @@ const Hero = () => {
       ease: "expo.out",
       stagger: 0.05
     });
+
+    gsap.from(paragraphSplit.lines, {
+      opacity: 0,
+      yPercent: 100,
+      duration: 1.8,
+      ease: "expo.out",
+      stagger: 0.05,
+      delay: 1
+    });
   }, []);
 
   return (
