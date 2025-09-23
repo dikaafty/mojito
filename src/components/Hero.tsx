@@ -1,5 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/all";
+import gsap from "gsap";
 
 const Hero = () => {
   return (
