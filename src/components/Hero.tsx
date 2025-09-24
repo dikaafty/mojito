@@ -42,6 +42,7 @@ const Hero = () => {
       .to(".left-leaf", { y: -200 }, 0);
 
     const startValue = isMobile ? "top 50%" : "center 60%";
+    const endValue = isMobile ? "120% top" : "bottom top";
   }, []);
 
   return (
