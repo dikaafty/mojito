@@ -6,6 +6,7 @@ import gsap from "gsap";
 
 const Hero = () => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
+  const isMobile = useMediaQuery({ maxWidth: 767 });
   
   useGSAP(() => {
     const heroSplit = new SplitText('.title', { type: "chars, words" });
