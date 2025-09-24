@@ -5,6 +5,8 @@ import { useMediaQuery } from "react-responsive";
 import gsap from "gsap";
 
 const Hero = () => {
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+  
   useGSAP(() => {
     const heroSplit = new SplitText('.title', { type: "chars, words" });
     const paragraphSplit = new SplitText('.subtitle', { type: "lines" });
