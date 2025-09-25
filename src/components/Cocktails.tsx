@@ -12,6 +12,16 @@ const Cocktails = () => {
         scrub: true,
       }
     });
+
+    parallaxTl
+      .from("#c-left-leaf", {
+        x: -100,
+        y: 100,
+      })
+      .from("#c-right-leaf", {
+        x: 100,
+        y: 100,
+      });
   }, []);
 
   return (
