@@ -3,6 +3,10 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Cocktails = () => {
+  useGSAP(() => {
+    
+  }, []);
+
   return (
     <section id="cocktails" className="noisy">
       <img 
