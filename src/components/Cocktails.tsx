@@ -1,4 +1,4 @@
-import { cocktailLists } from "../constants";
+import { cocktailLists, mockTailLists } from "../constants";
 
 const Cocktails = () => {
   return (
