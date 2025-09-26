@@ -1,4 +1,5 @@
 import { goodLists, featureLists } from "../constants";
+import { useMediaQuery } from "react-responsive";
 
 const Art = () => {
   return(
