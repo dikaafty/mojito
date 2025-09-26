@@ -4,6 +4,8 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Art = () => {
+  const isMobile = useMediaQuery({ maxWidth: 767 });
+
   return(
     <section id="art">
       <div className="container mx-auto h-full pt-20">
