@@ -5,6 +5,13 @@ import gsap from "gsap";
 const About = () => {
   useGSAP(() => {
     const titleSplit = SplitText.create("#about h2", { type: "words" });
+
+    const scrollTl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#about",
+        start: "top center"
+      }
+    });
   }, []);
 
   return (
