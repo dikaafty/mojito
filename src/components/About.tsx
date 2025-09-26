@@ -12,6 +12,15 @@ const About = () => {
         start: "top center"
       }
     });
+
+    scrollTl
+      .from(titleSplit.words, {
+        opacity: 0,
+        duration: 1,
+        yPercent: 100,
+        ease: "expo.out",
+        stagger: 0.02,
+      });
   }, []);
 
   return (
