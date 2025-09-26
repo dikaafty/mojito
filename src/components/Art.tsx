@@ -20,6 +20,7 @@ const Art = () => {
 
     maskTl
      .to(".will-fade", {  opacity: 0, ease: "power1.inOut", stagger: 0.2, })
+     .to(".masked-img", { scale: 1.3, maskSize: "400%", duration: 1, ease: "power1.inOut" })
   }, []);
 
   return(
