@@ -14,6 +14,7 @@ function App() {
         <Navbar />
         <Hero />
         <Cocktails />
+        <About />
       </main>
     </>
   )
