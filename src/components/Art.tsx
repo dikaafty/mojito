@@ -7,6 +7,10 @@ const Art = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const startValue = isMobile ? "top 20%" : "top top";
 
+  useGSAP(() => {
+    
+  }, []);
+
   return(
     <section id="art">
       <div className="container mx-auto h-full pt-20">
