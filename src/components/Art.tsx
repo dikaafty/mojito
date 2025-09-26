@@ -64,7 +64,7 @@ const Art = () => {
               featureLists.map((feature, index) => (
                 <li 
                   key={index}
-                  className="flex items-center justify-start gap-2"
+                  className="flex items-center justify-end md:justify-start gap-2"
                 >
                   <img 
                     src="/images/check.png" 
