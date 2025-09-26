@@ -5,6 +5,7 @@ import gsap from "gsap";
 
 const Art = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
+  const startValue = isMobile ? "top 20%" : "top top";
 
   return(
     <section id="art">
