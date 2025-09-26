@@ -8,7 +8,15 @@ const Art = () => {
   const startValue = isMobile ? "top 20%" : "top top";
 
   useGSAP(() => {
-    
+    const maskTl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#art",
+        start: startValue,
+        end: "bottom center",
+        scrub: 1.5,
+        pin: true,
+      }
+    });
   }, []);
 
   return(
