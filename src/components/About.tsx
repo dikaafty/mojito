@@ -3,6 +3,10 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
+  useGSAP(() => {
+    
+  }, []);
+
   return (
     <section id="about">
       <div className="mb-16 md:px-0 px-5">
