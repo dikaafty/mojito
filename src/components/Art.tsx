@@ -17,6 +17,9 @@ const Art = () => {
         pin: true,
       }
     });
+
+    maskTl
+     .to(".will-fade", {  opacity: 0, ease: "power1.inOut", stagger: 0.2, })
   }, []);
 
   return(
