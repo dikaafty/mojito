@@ -1,5 +1,6 @@
 import { goodLists, featureLists } from "../constants";
 import { useMediaQuery } from "react-responsive";
+import { useGSAP } from "@gsap/react";
 
 const Art = () => {
   return(
