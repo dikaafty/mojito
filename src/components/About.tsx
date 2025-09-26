@@ -1,3 +1,5 @@
+import { SplitText } from "gsap/all";
+
 const About = () => {
   return (
     <section id="about">
