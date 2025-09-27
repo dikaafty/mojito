@@ -1,6 +1,14 @@
 import { sliderLists } from "../constants";
 import { useState, useRef } from "react";
 
+type Cocktail = {
+  id: number,
+  name: string,
+  image: string,
+  title: string,
+  description: string,
+}
+
 const Menu = () => {
   const [ currentIndex, setCurrentIndex ] = useState<number>(0);
 
