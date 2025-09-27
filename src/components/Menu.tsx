@@ -1,4 +1,5 @@
 import { sliderLists } from "../constants";
+import { useState, useRef } from "react";
 
 const Menu = () => {
   return (
