@@ -1,3 +1,5 @@
+import { sliderLists } from "../constants";
+
 const Menu = () => {
   return (
     <section>
