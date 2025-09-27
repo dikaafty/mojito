@@ -26,6 +26,7 @@ const Menu = () => {
 
   const currentCocktail = getCocktailAt(0);
   const prevCocktail = getCocktailAt(-1);
+  const nextCocktail = getCocktailAt(1);
 
   return (
     <section>
