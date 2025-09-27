@@ -17,6 +17,12 @@ const Menu = () => {
 
   useGSAP(() => {
     gsap.fromTo("#title", { opacity: 0 }, { opacity: 1, duration: 1, });
+    gsap.fromTo(".cocktail img", { opacity: 0, xPercent: -100, }, {
+      opacity: 1,
+      xPercent: 0,
+      duration: 1,
+      ease: "power1.inOut",
+    });
   }, [currentIndex]);
 
   const totalCocktails = sliderLists.length;
