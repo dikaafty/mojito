@@ -1,5 +1,6 @@
 import { sliderLists } from "../constants";
 import { useState, useRef } from "react";
+import { useGSAP } from "@gsap/react";
 
 type Cocktail = {
   id: number,
