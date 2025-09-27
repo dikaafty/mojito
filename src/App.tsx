@@ -18,6 +18,7 @@ function App() {
         <Cocktails />
         <About />
         <Art />
+        <Menu />
       </main>
     </>
   )
