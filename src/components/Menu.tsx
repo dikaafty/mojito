@@ -15,6 +15,10 @@ const Menu = () => {
   const [ currentIndex, setCurrentIndex ] = useState<number>(0);
   const contentRef = useRef<HTMLDivElement | null>(null);
 
+  useGSAP(() => {
+    
+  }, [currentIndex]);
+
   const totalCocktails = sliderLists.length;
 
   const goToSlide = (index: number): void => {
