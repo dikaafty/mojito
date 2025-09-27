@@ -24,6 +24,8 @@ const Menu = () => {
     return sliderLists[(currentIndex + indexOffset + totalCocktails) % totalCocktails];
   }
 
+  const currentCocktail = getCocktailAt(0);
+
   return (
     <section>
       
