@@ -16,7 +16,7 @@ const Menu = () => {
   const contentRef = useRef<HTMLDivElement | null>(null);
 
   useGSAP(() => {
-    
+    gsap.fromTo("#title", { opacity: 0 }, { opacity: 1, duration: 1, });
   }, [currentIndex]);
 
   const totalCocktails = sliderLists.length;
