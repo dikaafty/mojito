@@ -11,6 +11,7 @@ type Cocktail = {
 
 const Menu = () => {
   const [ currentIndex, setCurrentIndex ] = useState<number>(0);
+  const contentRef = useRef<HTMLDivElement | null>(null);
 
   const totalCocktails = sliderLists.length;
 
