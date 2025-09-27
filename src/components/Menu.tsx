@@ -23,6 +23,11 @@ const Menu = () => {
       duration: 1,
       ease: "power1.inOut",
     });
+    gsap.fromTo(".details h2", { opacity: 0, yPercent: 100 }, { 
+      opacity: 1, 
+      yPercent: 0, 
+      ease: "power1.inOut" 
+    });
   }, [currentIndex]);
 
   const totalCocktails = sliderLists.length;
