@@ -6,6 +6,12 @@ const Menu = () => {
 
   const totalCocktails = sliderLists.length;
 
+  const goToSlide = (index: number): void => {
+    const newIndex = (index + totalCocktails) % totalCocktails;
+
+    setCurrentIndex(newIndex);
+  }
+
   return (
     <section>
       
