@@ -4,6 +4,10 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Contact = () => {
+  useGSAP(() => {
+    
+  }, []);
+
   return (
     <footer id="contact">
       <img 
