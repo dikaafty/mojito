@@ -6,6 +6,14 @@ import gsap from "gsap";
 const Contact = () => {
   useGSAP(() => {
     const titleSplit = SplitText.create("#contact h2", { type: "words" });
+
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: "#contact",
+        start: "top center",
+      },
+      ease: "power1.inOut",
+    });
   }, []);
 
   return (
