@@ -1,5 +1,6 @@
 import { storeInfo, openingHours, socials } from "../constants";
 import { SplitText } from "gsap/all";
+import { useGSAP } from "@gsap/react";
 
 const Contact = () => {
   return (
